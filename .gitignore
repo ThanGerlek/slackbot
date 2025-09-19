@@ -1,1 +1,9 @@
+# IDE configs
+.vscode/
+.idea/
+
+# Database
 db/
+
+# Secrets
+secrets/
