@@ -231,7 +231,7 @@ def run_action(action: str, user_id: str) -> None:
 
 
 def send_message(msg: str, private: bool = True) -> None:
-    res = {"text": msg} if private else {"text": msg, "response_type": "channel"}
+    res = {"text": msg} if private else {"text": msg, "response_type": "in_channel"}
     res_str = json.dumps(res)
     print(res_str)
 
